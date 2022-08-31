@@ -68,7 +68,7 @@ body {
     background: white;
     width: var(--width-image);
     height: var(--height-image);
-    background-image: url(../Razvertka/corner.png);
+    background-image: url(./corner.png);
     background-repeat: round;
     cursor: pointer;
 }
@@ -114,7 +114,7 @@ body {
     background: white;
     width: var(--width-image);
     height: var(--height-image);
-    background-image: url(../Razvertka/channel.png);
+    background-image: url(./channel.png);
     background-repeat: round;
     background-size: cover;
     cursor: pointer;
