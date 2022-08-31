@@ -1,0 +1,199 @@
+:root {
+    --color-font: rgb(255, 255, 255);
+    --width-image: 250px;
+    --height-image: 200px;
+}
+
+body {
+    margin: 0;
+
+}
+
+.skip-link {
+  position: absolute;
+  top: -100%;  
+  visibility: hidden;
+}
+
+
+.container {
+    background: rgb(117, 114, 114);
+    width: 100%;
+    height: 100vmin;
+    color: var(--color-font);
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.container span {
+    font-size: 50px;
+  
+}
+
+.choose {
+    display: flex;
+    /* background: blueviolet; */
+    width: 600px;
+    min-height: 300px;
+    height: max-content;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 5px;
+    padding: 30px 30px 0px 30px;
+}
+
+.figure {
+    box-shadow: 4px 4px 5px 0px rgb(13, 13, 14);
+}
+
+.figure:hover{
+    filter: brightness(80%);
+
+}
+
+.figure:active{
+    box-shadow: inset 4px 4px 5px 0px rgb(13, 13, 14);
+    /* transform: scale(0.1) rotateZ(1800deg); */
+    /* transition: transform 5s ease-in-out; */
+    /* opacity: 0;
+    transition: opacity 5s ease-in-out; */
+}
+
+.figure1 {
+    background: white;
+    width: var(--width-image);
+    height: var(--height-image);
+    background-image: url(../Razvertka/corner.png);
+    background-repeat: round;
+    cursor: pointer;
+}
+
+ /* .skip-link_anim_right {
+    animation-name: shake;
+    animation-duration: 5s;
+}  */
+
+/* @keyframes shake {
+    from {
+        margin-left: 0px;
+       
+    }
+
+    to {
+        margin-left: 200px;
+      
+    }
+    
+}
+
+ .skip-link_anim_left {
+    animation-name: shake;
+    animation-duration: 5s;
+} 
+@keyframes shake {
+    from {
+        margin-right: 0px;
+        
+    }
+
+    to {
+        margin-right: 200px;
+      
+    }
+    
+}
+ */
+
+
+.figure2 {
+    background: white;
+    width: var(--width-image);
+    height: var(--height-image);
+    background-image: url(../Razvertka/channel.png);
+    background-repeat: round;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.anim_1 {
+    transform: scale(0.1) rotateZ(1800deg);
+    transition: transform 5s ease-in-out; 
+}
+
+.anim_2 {
+    opacity: 0;
+    transition: opacity 5s ease-in-out;
+}
+
+.anim_3 {
+    box-shadow: 0px 0px 5px 600px rgb(53, 4, 99);
+    transition: box-shadow 15s ease-in-out;
+}
+
+.parametrs {
+    width: 100%;
+    min-height: 150px;
+    height: max-content;
+    background: white;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    box-shadow: 4px 4px 5px 0px rgb(13, 13, 14);
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.parametrs:hover {
+    filter: brightness(98%);
+}
+
+.parametrs span {
+    font-size: 22px;
+}
+
+.result_container {
+    position: relative;
+    background: white;
+    padding: 10px;
+    min-height: 150px;
+    width: 230px;
+    margin: 0 auto;
+    font-size: 25px;
+    color: black;
+    /* visibility: hidden; */
+    box-shadow: 4px 4px 5px 0px rgb(13, 13, 14);
+}
+
+/* .result1 {
+    background-color: blueviolet;
+}
+
+.result2 {
+    background-color: rgb(48, 155, 27);
+}
+
+.result3 {
+    background-color: rgb(181, 197, 31);
+} */
+
+.inter {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.inter:hover {
+    color: rgb(124, 25, 25);
+    /* transition: color 3s ease-in-out; */
+    background-color: black;
+    /* transition: background-color 10s ease-in-out; */
+    box-shadow: 0px 0px 25px 1200px rgb(2, 0, 3);
+    /* transition: box-shadow 15s ease-in-out; */
+    transition: all 10s ease-in-out;
+    z-index: 9999;
+ 
+}
